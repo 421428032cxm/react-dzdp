@@ -1,0 +1,110 @@
+.foods-root{
+    display: flex;
+    position: absolute;
+    top: 3.46rem;
+    bottom: 0.92rem;
+    width: 100%;
+    overflow: hidden;
+}
+/* 左侧菜单栏 */
+.menu-wrap{
+    flex: 0 0 1.6rem;
+    width: 1.6rem;
+}
+.menu-item{
+    display: table;
+    padding: 0 0.24rem;
+    width: 1.12rem;
+    height: 1.08rem;
+    line-height: 0.28rem;
+    background: #f3f5f7;
+}
+.menu-item.current{
+    position: relative;
+    z-index: 10;
+    margin-right: -1px;
+    font-weight: 700;
+    background-color: #666
+}
+.menu-item .text{
+    font-size: 0.28rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* 右侧食物列表 */
+.goods-wrap{
+    background-color: #fff;
+    flex: 1;
+}
+.goods-wrap .title{
+    padding-left: 0.28rem;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    border-left: 2px solid #d9dde1;
+    font-size: 0.24rem;
+    color: #666;
+    background: #f3f5f7;
+}
+.goods-wrap .goods-item{
+    position: relative;
+    display: flex;
+    margin: 0.36rem;
+    padding-bottom: 0.36rem;
+}
+.goods-wrap .goods-item:nth-last-child(1){
+    margin-bottom: 0;
+}
+.goods-wrap .image{
+    flex: 0 0 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.2rem;
+}
+.goods-wrap .image img{
+    width: 100%;
+}
+.goods-wrap .content{
+    flex: 1;
+}
+.goods-wrap .content .name{
+    margin: 2px 0 8px 0;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    font-size: 0.28rem;
+    font-weight: 700;
+    color: rgb(7, 17, 27);
+}
+.goods-wrap .content .desc, .goods-wrap .content .extra{
+    line-height: 0.2rem;
+    font-size: 0.22rem;
+    color: #666;
+    margin-bottom: 0.16rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.goods-wrap .content .desc{
+    width: 3.5rem;
+    line-height: 0.24rem;
+}
+.goods-wrap .content .extra .count{
+    margin-right: 0.24rem;
+}
+.goods-wrap .content .price{
+    font-weight: 700;
+    font-size: 0;
+}
+.goods-wrap .content .price .now{
+    margin-right: 0.16rem;
+    font-size: 0.28rem;
+    color: rgb(240, 20, 20);
+}
+.goods-wrap .content .price .old{
+    text-decoration: line-through;
+    font-size: 0.2rem;
+    color: rgb(147, 153, 159);
+}
+.cart-control-wrap{
+    position: absolute;
+    right: 0;
+    bottom: 0.1rem;
+}

@@ -1,0 +1,2 @@
+export const GET_HOME_AD_DATA = 'GET_HOME_AD_DATA';
+export const GET_HOME_LIST_DATA = 'GET_HOME_LIST_DATA';

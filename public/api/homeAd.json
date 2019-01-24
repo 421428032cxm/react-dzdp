@@ -1,0 +1,29 @@
+{
+    "advertising": [
+        {
+            "title": "暑假5折",
+            "img": "../../static/image/ad-1.png",
+            "link": "http://www.imooc.com/wap/index"
+        },{
+            "title": "特价出国",
+            "img": "../../static/image/ad-2.png",
+            "link": "http://www.imooc.com/wap/index"
+        },{
+            "title": "亮亮车",
+            "img": "../../static/image/ad-3.png",
+            "link": "http://www.imooc.com/wap/index"
+        },{
+            "title": "学钢琴",
+            "img": "../../static/image/ad-4.png",
+            "link": "http://www.imooc.com/wap/index"
+        },{
+            "title": "电影",
+            "img": "../../static/image/ad-5.png",
+            "link": "http://www.imooc.com/wap/index"
+        },{
+            "title": "旅游热线",
+            "img": "../../static/image/ad-6.png",
+            "link": "http://www.imooc.com/wap/index"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+.detail-info{
+    margin-top: 0.92rem;
+    background-color: #fff;
+}
+.detail-info .header{
+    height: 1.6rem;
+    background-color: #333;
+}
+.react-tabs__tab-list {
+    border-bottom: none;
+    display: flex;
+}
+.react-tabs__tab {
+    flex: 1;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+.react-tabs__tab span{
+    display: inline-block;
+    height: 0.7rem;
+    line-height: 0.7rem;
+}
+.react-tabs__tab--selected span{
+    border-bottom: 2px solid #333;
+}

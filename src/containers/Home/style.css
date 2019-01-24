@@ -1,0 +1,17 @@
+.load-more{
+    width: 100%;
+    text-align: center;
+    padding: 0.3rem 0;
+    background-color: #dcdcdc;
+    color: #999;
+    border: none;
+    font-size: 0.32rem;
+    outline: none;
+}
+
+.list-title{
+    font-size: 0.32rem;
+    font-weight: 700;
+    padding: 0.2rem 0.3rem;
+    border-bottom: 1px solid #f1f1f1;
+}

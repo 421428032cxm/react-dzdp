@@ -1,0 +1,9 @@
+.list-container {
+    background-color: #fff;
+}
+.list-container h2{
+    font-size: 0.32rem;
+    font-weight: 700;
+    padding: 0.2rem 0.3rem;
+    border-bottom: 1px solid #f1f1f1;
+}
